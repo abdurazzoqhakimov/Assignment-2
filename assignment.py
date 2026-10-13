@@ -19,9 +19,7 @@ for i in range(num_cables):
     length = int(input("Enter the cable length: "))
     result = classify(length)
     print(result)
-
     total += length
-
     if result == "Below range":
         below_count += 1
     elif result == "In range":
